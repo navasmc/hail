@@ -1,0 +1,88 @@
+/*
+ Theme Name:   hail Child
+ Theme URI:    http://example.com/heil-child/
+ Description:  Hail Child Theme
+ Author:       NAVAS
+ Author URI:   http://mefance.com
+ Template:     hail
+ Version:      1.0.0 
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  hail-child
+*/
+/*Top*/
+#header-bar{
+	background-color: #d6d6d6;
+	height: 27px;
+	font-size: 13px;
+}
+
+#header-bar .flag{
+    width: 16px;
+    height: 11px;
+    background: url(img/flags.png) no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    background-position: -32px 0px;
+}
+#header-bar .nav > li > a {
+    padding: 4px 15px !important;
+    color: inherit;
+}
+#header-bar .nav>li>a:focus, .nav>li>a:hover {
+   background-color: inherit !important;
+}
+#logo-bar{
+	height: 105px;
+	background-color: #ffffff;
+}
+#logo-bar .log-sec-1{
+	width:25%;	
+}
+#logo-bar .log-sec-2{
+	width:75%;	
+}
+#navigation{
+	float: right;
+}
+#searchbox{
+	float: left;	
+}
+#searchbox #basic-addon2{
+	background:#fcb040;	
+	border-radius: 0;
+	padding: 0px 34px 0;
+}
+#searchbox input{
+	border-radius: 0px;
+	border-color: #d6d6d6;
+}
+
+/*Site content*/
+#panel-1{
+	border-color: #ace3df;
+}
+#content #main #panel-1 .panel-heading{
+	background-color: #00a99d;
+}
+#panel-2{
+	border-color: #fcb54d;
+}
+#content #main #panel-2 .panel-heading{
+	background-color: #ffffff;
+	border-bottom: 0px;
+}
+#panel-3{
+	border-color: #45c1b8;
+}
+#content #main #panel-3 .panel-heading{
+	background-color: #ffffff;
+	border-bottom: 0px;
+}
+#left-area{
+	padding-right: 0px !important;
+}
+#right-area{
+	padding-left: 8px !important;
+}
